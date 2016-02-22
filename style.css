@@ -8,6 +8,75 @@ background: #ffffff;
 margin: auto;
 box-shadow: 1px 1px 10px #98b2c1;
  }
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: LightGrey;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.locationhelp{
+  position: fixed;
+  font-size: 12px;
+}
+.mainarticle{
+  margin-top: -17px;
+  padding-left: 360px;
+  font-size: 17px;
+}
+.paragraph1{
+  float: right;
+  margin: 0 0 10px 10px;
+  padding-left: 350px;
+}
+.localforecast{
+  position: fixed;
+  padding-top: 25px;
+  font-size: 12px;
+}
+.currentweather{
+  position: fixed;
+  padding-top: 50px;
+  font-size: 18px;
+}
+.spanish{
+  font-size: 12px;
+}
+.sharebutton{
+  padding-left: 40px;
+  font-size: 12px;
+}
+.header_doc{
+  padding-left: 488px;
+}
+.currentconditions{
+  font-size: 13px;
+  position: absolute;
+  margin-bottom: 600px;
+}
+.seattleboeingfield{
+  font-size: 20px;
+  color: #135897;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.latitutde{
+  font-size: 13px;
+  position: absolute;
+  margin-top: 0px;
+}
  .header-icons {
 
  }
