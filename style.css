@@ -100,14 +100,55 @@ box-shadow: 1px 1px 10px #98b2c1;
   content: "\f199";
 }
 
- .weather-pics {
+.padded {
+
+}
+.inset-panel {
+
+}
+.panel-heading {
+
+}
+
+.panel-heading p {
+
+}
+.panel-body-padded {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float: left;
+}
+ .weather-list2 {
+
 
  }
-
- .weather-list {
-
- }
-
- .weather-pics {
+ .weather-pics-1 {
 
  }
+ .weather-pics-2 {
+
+ }
+ .weather-pics-3 {
+
+ }
+ .weather-pics-4 {
+
+ }
+ .weather-pics-5 {
+
+ }
+ .weather-pics-6 {
+
+ }
+ .weather-pics-7 {
+
+ }
+ .weather-pics-8 {
+
+ }
+ .weather-pics-9 {
+
+ }
+ 
