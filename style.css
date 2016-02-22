@@ -1,8 +1,11 @@
 body {
-
+background: #c4e5f6;
 }
  .container {
-
+width: 960px;
+text-align: center;
+background: #ffffff;
+margin: auto;
  }
  .header-icons {
 
