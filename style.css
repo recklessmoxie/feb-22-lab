@@ -8,7 +8,8 @@ background: #ffffff;
 margin: auto;
 box-shadow: 1px 1px 10px #98b2c1;
  }
- ul {
+
+.navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -16,11 +17,11 @@ box-shadow: 1px 1px 10px #98b2c1;
     background-color: LightGrey;
 }
 
-li {
+.navbar ul li {
     float: left;
 }
 
-li a {
+.navbar li a {
     display: block;
     color: white;
     text-align: center;
@@ -28,7 +29,6 @@ li a {
     text-decoration: none;
 }
 .locationhelp{
-  position: fixed;
   font-size: 12px;
 }
 .mainarticle{
@@ -42,12 +42,10 @@ li a {
   padding-left: 350px;
 }
 .localforecast{
-  position: fixed;
   padding-top: 25px;
   font-size: 12px;
 }
 .currentweather{
-  position: fixed;
   padding-top: 50px;
   font-size: 18px;
 }
@@ -63,7 +61,6 @@ li a {
 }
 .currentconditions{
   font-size: 13px;
-  position: absolute;
   margin-bottom: 600px;
 }
 .seattleboeingfield{
@@ -74,7 +71,6 @@ li a {
 }
 .latitutde{
   font-size: 13px;
-  position: absolute;
   margin-top: 0px;
 }
  .header-icons {
@@ -103,6 +99,14 @@ li a {
 .fa-envelope-square:before {
   content: "\f199";
 }
+
+ .weather-pics {
+
+ }
+
+ .weather-list {
+
+ }
 
  .weather-pics {
 
