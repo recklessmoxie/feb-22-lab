@@ -8,13 +8,20 @@ background: #ffffff;
 margin: auto;
 box-shadow: 1px 1px 10px #98b2c1;
  }
+ .header {
+   display: flex;
+   justify-content: flex-start;
+ }
+.header_doc {
+  margin-right:200px;
+}
 
 .navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: LightGrey;
+    background-color: #efefef;
 }
 
 .navbar ul li {
@@ -23,11 +30,13 @@ box-shadow: 1px 1px 10px #98b2c1;
 
 .navbar li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
+
+
 .locationhelp{
   font-size: 12px;
 }
@@ -56,9 +65,7 @@ box-shadow: 1px 1px 10px #98b2c1;
   padding-left: 40px;
   font-size: 12px;
 }
-.header_doc{
-  padding-left: 488px;
-}
+
 .currentconditions{
   font-size: 13px;
   margin-bottom: 600px;
