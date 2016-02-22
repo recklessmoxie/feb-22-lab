@@ -14,7 +14,7 @@ box-shadow: 1px 1px 10px #98b2c1;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: LightGrey;
+    background-color: #efefef;
 }
 
 .navbar ul li {
@@ -23,7 +23,7 @@ box-shadow: 1px 1px 10px #98b2c1;
 
 .navbar li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -107,48 +107,63 @@ box-shadow: 1px 1px 10px #98b2c1;
 
 }
 .panel-heading {
-
+text-align: justify;
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #efefef;
 }
 
 .panel-heading p {
+  font-size: 30px;
+  color: #135897;
+  margin-bottom: 0px;
+  margin-top: 0px;
 
 }
 .panel-body-padded {
-  list-style-type:none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  float: left;
+  display:flex;
+  padding-left: 10px;
 }
- .weather-list2 {
+.weather-list-1 ul {
+  padding-left: 5px;
+  list-style-type: none;
 
+}
 
- }
- .weather-pics-1 {
+.weather-list-1 ul li {
+  float: left;
+  display: block;
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  padding: 8px 8px;
+  text-decoration: none;
+}
 
- }
- .weather-pics-2 {
+ .weather-list2 ul {
+   padding-left: 40px;
+   list-style-type: none;
 
- }
- .weather-pics-3 {
+}
 
- }
- .weather-pics-4 {
+.weather-list2 ul li {
+  float: left;
+  display: block;
+  color: black;
+  font-size: 15px;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+}
 
- }
- .weather-pics-5 {
+.panel-body-bottom {
+  float left;
+  display: block;
+}
 
- }
- .weather-pics-6 {
+.weather-pics-1 ul li{
 
- }
- .weather-pics-7 {
-
- }
- .weather-pics-8 {
-
- }
- .weather-pics-9 {
-
- }
- 
+}
