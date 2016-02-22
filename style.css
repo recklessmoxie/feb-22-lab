@@ -7,6 +7,30 @@ body {
  .header-icons {
 
  }
+
+ .fa-caret-down:before {
+   content: "\f0d7";
+ }
+ .fa-facebook-official:before {
+   content: "\f230";
+ }
+
+ .fa-twitter:before {
+   content: "\f099";
+}
+
+.fa-google-plus-square:before {
+  content: "\f0d4";
+}
+
+.fa-print:before {
+  content: "\f02f";
+}
+
+.fa-envelope-square:before {
+  content: "\f199";
+}
+
  .weather-pics {
-   
+
  }
